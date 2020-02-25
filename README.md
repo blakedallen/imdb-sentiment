@@ -1,10 +1,10 @@
 # imdb-sentiment
 IMDB - Sentiment Analysis. Deep learning model to learn sentiment analysis from movie reviews
-This project uses an LSTM (rnn) on the IMDB dataset to predict sentiment classification
+This project uses an Long short-term memory (LSTM) network on the IMDB dataset to predict sentiment classification
 
 ## Architecture
 
-Embedding layer - encodes text as dense vector for ML analysis
+Embedding layer - encodes the text indices as a dense vector for analysis
 
 LSTM 128 - <a href="https://en.wikipedia.org/wiki/Long_short-term_memory">Long Short Term Memory layer</a> with 128 units. and a dropout value of 0.2, recurrent dropout of 0.2. 
 
